@@ -1,0 +1,12 @@
+﻿# robots.txt - Caio Motorista Particular
+# https://www.motoristaguarapari.com.br
+
+User-agent: *
+Allow: /
+
+# Bloquear assets desnecessários para indexação
+Disallow: /assets/js/
+Disallow: /*.json$
+
+# Sitemap
+Sitemap: https://www.motoristaguarapari.com.br/sitemap.xml

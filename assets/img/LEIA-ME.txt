@@ -1,0 +1,53 @@
+==============================================================
+PASTA DE IMAGENS · O QUE COLOCAR AQUI
+==============================================================
+
+Para o site ficar 100% pronto, você precisa colocar 5 imagens
+nesta pasta. Os nomes precisam ser EXATAMENTE estes:
+
+1) byd-dolphin-mini-azul.jpg
+   - Foto do seu BYD Dolphin Mini GS Azul 2027
+   - Tamanho ideal: 1280 x 800 px
+   - Onde achar: site oficial BYD Brasil → Dolphin Mini → galeria
+     URL direta: https://www.byd.com/br/dolphin-mini
+   - Outra fonte: pesquise no Google "BYD Dolphin Mini GS azul"
+     e baixe uma foto em alta resolução (clique em "Imagens" e
+     filtre por "Tamanho > Grande").
+   - DICA: o ideal mesmo é fotografar o SEU carro estacionado
+     em local limpo (a praia ao fundo funciona muito bem aqui
+     em Guarapari). Foto real converte muito mais.
+
+2) caio-rangel.jpg
+   - Sua foto profissional, em pé, ao lado do carro ou em fundo neutro.
+   - Tamanho ideal: 1040 x 1300 px (vertical)
+   - Roupa social ou polo discreta. Sorriso leve. Confiança.
+
+3) og-image.jpg
+   - Imagem que aparece no WhatsApp / Facebook / Instagram quando
+     alguém compartilha o link do site.
+   - Tamanho EXATO: 1200 x 630 px
+   - Sugestão: foto do carro com seu logo + frase
+     "Transfer Vitória ↔ Guarapari · 24h"
+
+4) icon-192.png  (192 x 192 px)
+5) icon-512.png  (512 x 512 px)
+   - Ícones do site quando alguém adicionar à tela inicial do celular.
+   - Pode ser o logo "CR" em fundo dourado/preto.
+   - Gere fácil em: https://favicon.io/favicon-generator/
+     Texto: CR  |  Background: #c9a961  |  Font: Playfair Display
+
+==============================================================
+ATALHO PRA NÃO TRAVAR O SITE ANTES DAS FOTOS:
+==============================================================
+
+Enquanto não tiver as fotos reais, baixe placeholders gratuitos:
+
+- BYD Dolphin Mini: pesquise no Google Imagens
+  "BYD Dolphin Mini GS azul" → filtre por "Direitos de uso > Creative Commons"
+- Sua foto: tire qualquer selfie em fundo neutro temporariamente
+- og-image: você pode gerar gratuitamente em
+  https://www.canva.com (template "Facebook Post")
+
+Depois é só substituir mantendo o MESMO nome de arquivo.
+
+==============================================================
