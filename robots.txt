@@ -1,4 +1,4 @@
-﻿# robots.txt - Caio Motorista Particular
+# robots.txt - Caio Motorista Particular
 # https://www.motoristaguarapari.com.br
 
 User-agent: *

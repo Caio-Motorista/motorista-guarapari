@@ -1,4 +1,4 @@
-﻿# Caio Motorista Particular · Guarapari
+# Caio Motorista Particular · Guarapari
 
 Landing page premium de transporte executivo (Vitória ↔ Guarapari).
 Foco: SEO local, conversão para WhatsApp e posicionamento do diferencial **carro elétrico BYD Dolphin Mini 2027**.
