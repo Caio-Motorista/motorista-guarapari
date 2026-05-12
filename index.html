@@ -299,12 +299,28 @@
 
     <div class="hero-visual">
       <div class="hero-card">
-        <div class="hero-card-img" aria-hidden="true">
-          <!-- Substituir pelo arquivo /assets/img/byd-dolphin-mini-azul.jpg -->
-          <picture>
-            <source srcset="/assets/img/byd-dolphin-mini-azul.webp" type="image/webp" />
-            <img src="/assets/img/byd-dolphin-mini-azul.jpg" alt="BYD Dolphin Mini GS 2027 Azul - veículo elétrico usado nos transfers de Caio Rangel" loading="eager" fetchpriority="high" width="640" height="420" />
-          </picture>
+        <div class="hero-card-img hero-card-svg" aria-hidden="true">
+          <svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" role="img" aria-label="BYD Dolphin Mini GS Azul 2027 - elétrico premium">
+            <defs>
+              <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1f3a5f"/><stop offset="100%" stop-color="#0a1929"/></linearGradient>
+              <linearGradient id="carGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#1e40af"/></linearGradient>
+              <linearGradient id="glassGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#93c5fd" stop-opacity=".6"/><stop offset="100%" stop-color="#1e3a8a" stop-opacity=".9"/></linearGradient>
+              <radialGradient id="glow" cx="50%" cy="50%"><stop offset="0%" stop-color="#c9a961" stop-opacity=".25"/><stop offset="100%" stop-color="#c9a961" stop-opacity="0"/></radialGradient>
+            </defs>
+            <rect width="640" height="400" fill="url(#skyGrad)"/>
+            <ellipse cx="320" cy="260" rx="280" ry="120" fill="url(#glow)"/>
+            <path d="M70,280 Q80,290 100,290 L540,290 Q560,290 570,280 L70,280 Z" fill="#0a0a0a" opacity=".4"/>
+            <path d="M120,240 L180,180 Q200,165 230,162 L420,162 Q455,165 478,182 L520,240 L540,250 Q555,255 555,270 L555,285 Q555,295 545,295 L100,295 Q90,295 90,285 L90,260 Q90,250 100,247 L120,240 Z" fill="url(#carGrad)" stroke="#1e293b" stroke-width="2"/>
+            <path d="M195,182 Q210,170 230,168 L320,168 L320,235 L175,235 L195,182 Z" fill="url(#glassGrad)" opacity=".85"/>
+            <path d="M320,168 L410,168 Q435,170 455,185 L470,235 L320,235 L320,168 Z" fill="url(#glassGrad)" opacity=".85"/>
+            <line x1="320" y1="168" x2="320" y2="235" stroke="#0f172a" stroke-width="3"/>
+            <circle cx="180" cy="295" r="32" fill="#0f172a"/><circle cx="180" cy="295" r="22" fill="#1e293b"/><circle cx="180" cy="295" r="8" fill="#94a3b8"/>
+            <circle cx="460" cy="295" r="32" fill="#0f172a"/><circle cx="460" cy="295" r="22" fill="#1e293b"/><circle cx="460" cy="295" r="8" fill="#94a3b8"/>
+            <rect x="118" y="247" width="22" height="14" rx="3" fill="#fef3c7"/>
+            <rect x="500" y="247" width="22" height="14" rx="3" fill="#fee2e2"/>
+            <g transform="translate(140,210)" opacity=".95"><circle r="14" fill="#c9a961"/><text x="0" y="5" text-anchor="middle" font-family="Inter,sans-serif" font-weight="700" font-size="14" fill="#0a0a0a">⚡</text></g>
+            <text x="320" y="370" text-anchor="middle" font-family="Inter,sans-serif" font-weight="700" font-size="13" letter-spacing="2" fill="#c9a961">BYD DOLPHIN MINI · 100% ELÉTRICO</text>
+          </svg>
         </div>
         <div class="hero-card-info">
           <div class="badge-row">
@@ -485,11 +501,21 @@
 <!-- ========== SOBRE ========== -->
 <section class="section section-dark" id="sobre" aria-labelledby="sobre-title">
   <div class="container about-grid">
-    <div class="about-img">
-      <picture>
-        <source srcset="/assets/img/caio-rangel.webp" type="image/webp" />
-        <img src="/assets/img/caio-rangel.jpg" alt="Caio Rangel - motorista executivo em Guarapari, ES" loading="lazy" width="520" height="640" />
-      </picture>
+    <div class="about-img about-img-svg" aria-hidden="true">
+      <svg viewBox="0 0 520 640" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Caio Rangel - motorista executivo">
+        <defs>
+          <linearGradient id="aboutBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1f1f1f"/><stop offset="100%" stop-color="#0a0a0a"/></linearGradient>
+          <linearGradient id="goldFill" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#e5c36b"/><stop offset="100%" stop-color="#8a6f3d"/></linearGradient>
+          <radialGradient id="aboutGlow" cx="50%" cy="40%"><stop offset="0%" stop-color="#c9a961" stop-opacity=".18"/><stop offset="100%" stop-color="#c9a961" stop-opacity="0"/></radialGradient>
+        </defs>
+        <rect width="520" height="640" fill="url(#aboutBg)"/>
+        <circle cx="260" cy="280" r="240" fill="url(#aboutGlow)"/>
+        <text x="260" y="340" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-weight="900" font-size="180" fill="url(#goldFill)" letter-spacing="-4">CR</text>
+        <line x1="180" y1="430" x2="340" y2="430" stroke="#c9a961" stroke-width="2" opacity=".6"/>
+        <text x="260" y="475" text-anchor="middle" font-family="Inter,sans-serif" font-weight="600" font-size="22" fill="#f5f5f5">CAIO RANGEL</text>
+        <text x="260" y="505" text-anchor="middle" font-family="Inter,sans-serif" font-weight="400" font-size="14" letter-spacing="3" fill="#a8a8a8">MOTORISTA EXECUTIVO</text>
+        <text x="260" y="540" text-anchor="middle" font-family="Inter,sans-serif" font-weight="400" font-size="13" letter-spacing="2" fill="#c9a961">GUARAPARI · ES</text>
+      </svg>
       <div class="about-img-tag">Caio Rangel</div>
     </div>
     <div class="about-content">
